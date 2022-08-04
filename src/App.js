@@ -12,6 +12,7 @@ import Contact from "./components/Pages/Contact";
 import About from "./components/Pages/About";
 import Signin from "./components/Pages/Signin";
 import Live from "./components/Pages/Live";
+import "./components/styles/Pages/live.css";
 
 function App() {
   return (
@@ -63,9 +64,9 @@ function App() {
             </li>
             <div className="live-menu">
               <li>
-                <Link to={"/live"}>
+                <Link to={"/live"} className="live-container">
                   Live Events
-                  <img src="" alt="" className="live-red" />
+                  <div className="live-color"></div>
                 </Link>
               </li>
             </div>

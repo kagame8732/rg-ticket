@@ -1,10 +1,19 @@
 .container {
   display: flex;
   width: 100%;
+  height: 100vh;
   justify-content: center;
   align-items: center;
 }
-
+@media screen and (max-width: 780px) {
+  .container {
+    display: block;
+  }
+  .right-terms {
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+  }
+}
 .left-container {
   background-color: #ffedf2;
   margin: 30px;
@@ -56,15 +65,32 @@
   color: #242424;
 }
 
+.form-wrapper {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
 .name,
 .email,
 .password {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .password {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .input {
+  height: 30px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: 2px solid black;
+}
+.password {
   height: 32px;
   font-size: 20px;
   outline: none;
@@ -73,6 +99,12 @@
   border-left-style: none;
   border-right-style: none;
   border-bottom-style: 2px solid black;
+  position: relative;
+}
+.span {
+  cursor: pointer;
+  position: absolute;
+  margin-left: -30px;
 }
 
 .error {
@@ -106,4 +138,19 @@ button:active {
 .right-terms {
   margin-top: 25px;
   justify-content: center;
+}
+
+.own-account {
+  padding: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 13px;
+  text-align: center;
+  color: #424242;
+}
+.own-account a {
+  text-transform: uppercase;
+  text-decoration: none;
 }

@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { Icon } from "react-icons-kit";
+import { eyeOff } from "react-icons-kit/feather/eyeOff";
+import { eye } from "react-icons-kit/feather/eye";
 import logos from "../images/logos.png";
 import illustrator from "../images/illustration.png";
 import "../styles/Pages/signup.css";
@@ -22,6 +25,11 @@ function Signup() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     setErrors(validation(values));
+  };
+
+  const [visible, setVisible] = useState(false);
+  const handleToggle = () => {
+    setVisible(!visible);
   };
 
   return (
@@ -69,12 +77,19 @@ function Signup() {
             <div className="name">
               <label className="label">Password </label>
               <input
-                type="password"
+                type={visible === false ? "password" : "text"}
                 name="password"
-                className="input"
+                className="password"
                 value={values.password}
                 onChange={handleChange}
               />
+              <span>
+                {visible === false ? (
+                  <Icon onClick={handleToggle} icon={eyeOff} className="span" />
+                ) : (
+                  <Icon onClick={handleToggle} icon={eye} className="span" />
+                )}
+              </span>
               {errors.password && <p className="error">{errors.password}</p>}
             </div>
             <button className="submit" onClick={handleFormSubmit}>
@@ -88,8 +103,10 @@ function Signup() {
             <a href="#">Terms and Conditions</a> and
             <a href="#">Privacy Policy</a> and allow Mopay to contact you and
             send you marketing communications using the contact details you have
-            provided to us.<span></span>
-            <a href="#">Login</a>
+            provided to us.
+          </p>
+          <p className="own-account">
+            Own an account? <a href="#">Login</a>
           </p>
         </div>
       </div>
