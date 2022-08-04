@@ -13,6 +13,7 @@ import About from "./components/Pages/About";
 import Signin from "./components/Pages/Signin";
 import Live from "./components/Pages/Live";
 import "./components/styles/Pages/live.css";
+import Footer from "./components/Pages/Footer";
 
 function App() {
   return (
@@ -84,6 +85,7 @@ function App() {
         <Route path="/login" element={<Signin />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
