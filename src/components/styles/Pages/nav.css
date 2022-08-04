@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 130px;
+  background-color: #f3f9ed;
+}
+
+.search-bar {
+  background-color: #ffffff;
+  display: flex;
+  width: 800px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.dropdown {
+  position: relative;
+  width: -150px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.default-option {
+  padding: 8px 30px;
+}
+
+.dropdown-list ul {
+  list-style: none;
+  background-color: #ffffff;
+  color: #8ec543;
+  position: absolute;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  width: 800px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.input-search {
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: none;
+}
+input,
+.submit-search:focus {
+  outline: none;
+}
+
+.submit-search {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.signup-menu {
+  color: black;
+  background-color: #f3f9ed;
+}
+.login-menu {
+  color: #ffffff;
+  background-color: #8ec543;
+  border-radius: 4px;
+  padding: 10px;
+  border-bottom: 5px outset #ffffff;
+  border-right: 5px outset #ffffff;
+}
+
+.login-menu:hover {
+  color: #ffffff;
+}
+
+.login-menu::before {
+  transform: translate(12px, 12px);
+}
+
+.header-menu {
+  background-color: black;
+  width: 100%;
+  height: 60px;
+}
+
+.signup-login-menu {
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 12px;
+  gap: 1rem;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+li {
+}
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  color: #8ec543;
+}
+.live-menu {
+  margin-left: 175px;
+}
+.body {
+  background-color: #8ec543;
+}
+.logo-img {
+  width: 319.2px;
+  height: 56px;
+  left: 142px;
+  top: 64px;
+}
