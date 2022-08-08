@@ -83,6 +83,7 @@ function Signup() {
                 value={values.password}
                 onChange={handleChange}
               />
+
               <span>
                 {visible === false ? (
                   <Icon onClick={handleToggle} icon={eyeOff} className="span" />
