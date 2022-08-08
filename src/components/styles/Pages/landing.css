@@ -1,0 +1,26 @@
+.seka-logo {
+  max-width: 100%;
+}
+.header-img {
+  position: relative;
+}
+.header-seka {
+  width: 484px;
+  height: 126px;
+  border: 5px solid #777;
+  border-radius: 5px;
+  transform: translate(70%, -30%);
+  z-index: 4;
+  position: absolute;
+}
+.seka-heading {
+  background-color: #fff;
+}
+.center-seka {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  background-color: #fff;
+}
+.duration-seka {
+}
