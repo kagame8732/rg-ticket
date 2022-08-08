@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 780px) {
+  .container {
+    display: block;
+  }
+  .right-terms {
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+  }
+}
+.left-container {
+  background-color: #ffedf2;
+  margin: 30px;
+  display: block;
+}
+.logo-img {
+  margin: auto;
+  display: block;
+  width: 319.2px;
+  height: 56px;
+}
+.illustrator-img {
+  margin: auto;
+  display: block;
+  width: 351.65px;
+  height: 296.41px;
+  left: 125.93px;
+  top: 179.52px;
+}
+.left-text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #050709;
+  padding: 15px;
+  display: block;
+}
+
+.right-container {
+  margin: 30px;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.right-form {
+  margin-top: 20px;
+}
+
+.right-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25.9722px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: -0.415556px;
+  color: #242424;
+}
+
+.form-wrapper {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.name,
+.email,
+.password {
+  margin-bottom: 20px;
+}
+.password {
+  margin-bottom: 20px;
+}
+.input {
+  height: 30px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: 2px solid black;
+}
+.password {
+  height: 32px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: 2px solid black;
+  position: relative;
+}
+.span {
+  cursor: pointer;
+  position: absolute;
+  margin-left: -30px;
+}
+
+.error {
+  color: red;
+}
+
+.submit {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 40px;
+  background: #8ec543;
+  box-shadow: 0px 8.76562px 33.2444px -6.64889px #8ec543;
+  border-radius: 46.5422px;
+  margin: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+button:active {
+  transform: translateY(2px);
+}
+
+.term-condition {
+  display: block;
+  margin: auto;
+}
+
+.right-terms {
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.own-account {
+  padding: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 13px;
+  text-align: center;
+  color: #424242;
+}

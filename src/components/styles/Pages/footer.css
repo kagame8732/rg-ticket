@@ -1,0 +1,177 @@
+.footer-container {
+  display: flex;
+  background: #444b3d;
+  padding: 10px 10px 10px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+}
+@media screen and (max-width: 1039px) {
+  .footer-container {
+    display: block;
+  }
+}
+
+.footer.left {
+  margin: auto;
+  justify-content: center;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-logo {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.footer-left-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.visa-img,
+.mastercard-img,
+.mtn-img,
+.airtel-img {
+  padding: 5px;
+  margin-right: 10px;
+  bottom: 0;
+}
+
+.footer-links {
+}
+.link-heading,
+.contact-heading,
+.connect-heading {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin-left: 25px;
+}
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.time,
+.kigali-text,
+.kigali-sms,
+.kigali-call,
+.kpl-loc,
+.kpl-sms,
+.kpl-call {
+  color: #fff;
+}
+
+.footer-time {
+  transform: translate(-30%, 20%);
+}
+.footer-location {
+  transform: translate(-30%, 20%);
+}
+.footer-info,
+.footer-contact {
+  transform: translate(-30%, 20%);
+}
+
+.kigali {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  color: #8ec543;
+  margin-top: 10px;
+}
+.kigali::after {
+  position: absolute;
+  content: "";
+  border: 1px solid #fff;
+  width: 20%;
+  bottom: 0;
+  left: calc(15% - 10%);
+}
+.kampala {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  color: #8ec543;
+  margin-top: 10px;
+}
+.kampala::after {
+  position: absolute;
+  content: "";
+  border: 1px solid #fff;
+  width: 30%;
+  bottom: 0;
+  left: calc(15% - 10%);
+}
+
+.footer-right {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-right-contact {
+  background: #444b3d;
+}
+
+.footer-right-connect {
+}
+.footer-right-img {
+  display: grid;
+  background: linear-gradient(180deg, #8ec543 0%, rgba(5, 7, 8, 0.12) 100%);
+  border-radius: 15px;
+  width: 60px;
+  height: 150px;
+  margin-left: 50%;
+  margin-top: 50%;
+  justify-content: center;
+}
+
+.ig-img,
+.fb-img,
+.twitter-img {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.footer-banner {
+  width: 100%;
+  height: 30px;
+  background-color: gray;
+  color: #fff;
+  padding: 5px;
+  margin: auto;
+}
+.copyright {
+  left: 50%;
+  top: 50%;
+  justify-content: center;
+}
+
+@media screen and(max-width:829px) {
+  .footer-right-contact {
+    display: block;
+  }
+}
