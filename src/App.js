@@ -14,6 +14,7 @@ import Signin from "./components/Pages/Signin";
 import Live from "./components/Pages/Live";
 import "./components/styles/Pages/live.css";
 import Footer from "./components/Pages/Footer";
+import Landing from "./components/Pages/Landing";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
           </div>
           <ul>
             <li>
-              <Link to={"/"} className="signup-login-menu">
+              <Link to={"/signup"} className="signup-login-menu">
                 Sign Up
               </Link>
             </li>
@@ -75,13 +76,14 @@ function App() {
         </div>
       </nav>
       <Routes>
-        <Route path="/" element={<Signup />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/events" element={<Events />} />
         <Route path="/conference" element={<Conferences />} />
         <Route path="/cinema" element={<Cinemas />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/live" element={<Live />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Signin />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
