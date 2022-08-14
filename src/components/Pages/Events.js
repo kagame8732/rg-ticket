@@ -38,7 +38,6 @@ function Events() {
                 <span className="start-text">Wednesady, 22 Jun 2022</span>
               </div>
             </div>
-
             <div className="end-date">
               <div>
                 <img src={start} alt="" />
@@ -99,6 +98,9 @@ function Events() {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <button className="btn-event">buy a ticket</button>
       </div>
     </div>
   );

@@ -84,3 +84,17 @@
   font-family: "Montserrat";
   line-height: 21px;
 }
+.btn-event {
+  background: #8ec543;
+  width: 300px;
+  height: 74px;
+  padding: 22px 36px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 39px;
+  border: none;
+  margin: 25px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
