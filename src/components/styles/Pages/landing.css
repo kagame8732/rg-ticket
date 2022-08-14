@@ -151,6 +151,7 @@ li a:hover {
   color: #8ec543;
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 .ticket-container {

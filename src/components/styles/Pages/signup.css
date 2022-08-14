@@ -22,7 +22,7 @@
 .logo-img {
   margin: auto;
   display: block;
-  width: 319.2px;
+  width: 319px;
   height: 56px;
 }
 .illustrator-img {
@@ -45,7 +45,7 @@
 }
 
 .right-container {
-  margin: 30px;
+  margin: 20px;
   display: block;
   margin: auto;
   width: 100%;
@@ -91,7 +91,7 @@
   border-bottom-style: 2px solid black;
 }
 .password {
-  height: 32px;
+  height: 30px;
   font-size: 20px;
   outline: none;
   width: 100%;

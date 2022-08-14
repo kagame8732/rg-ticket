@@ -1,0 +1,20 @@
+.event-share {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  margin-top: 10px;
+}
+.share-btn {
+  width: 98px;
+  height: 37px;
+}
+.share {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.226px;
+  line-height: 20px;
+  color: #8ec543;
+  justify-content: center;
+  align-items: center;
+}
