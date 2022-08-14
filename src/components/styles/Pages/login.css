@@ -47,8 +47,8 @@
 .right-container {
   margin: 30px;
   display: block;
-  margin: auto;
   width: 100%;
+  display: block;
 }
 .right-form {
   margin-top: 20px;
@@ -72,7 +72,6 @@
   overflow: hidden;
 }
 
-.name,
 .email,
 .password {
   margin-bottom: 20px;
@@ -81,7 +80,7 @@
   margin-bottom: 20px;
 }
 .input {
-  height: 30px;
+  height: 15px;
   font-size: 20px;
   outline: none;
   width: 100%;
@@ -89,9 +88,10 @@
   border-left-style: none;
   border-right-style: none;
   border-bottom-style: 2px solid black;
+  margin-left: 5px;
 }
 .password {
-  height: 32px;
+  height: 15px;
   font-size: 20px;
   outline: none;
   width: 100%;
@@ -100,11 +100,12 @@
   border-right-style: none;
   border-bottom-style: 2px solid black;
   position: relative;
+  margin-left: 5px;
 }
 .span {
   cursor: pointer;
   position: absolute;
-  margin-left: -30px;
+  transform: translate(45%, -35%);
 }
 
 .error {
