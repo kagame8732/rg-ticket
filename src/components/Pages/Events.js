@@ -16,7 +16,7 @@ function Events() {
         <button className="share-btn">
           <img src={share} alt="" /> <p className="share">share</p>
         </button>
-        <CountdownTimer countdownTimestampMs={1660925648000} />
+        <CountdownTimer countdownTimestampMs={1661426576000} />
       </div>
       <div>
         <div className="description">
