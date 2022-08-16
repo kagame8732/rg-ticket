@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Icon } from "react-icons-kit";
 import { eyeOff } from "react-icons-kit/feather/eyeOff";
 import { eye } from "react-icons-kit/feather/eye";
@@ -13,7 +14,6 @@ function Signup() {
     email: "",
     password: "",
   });
-
   const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
@@ -107,7 +107,8 @@ function Signup() {
             provided to us.
           </p>
           <p className="own-account">
-            Own an account? <a href="#">Login</a>
+            Own an account?
+            <Link to={"/login"}>Login</Link>
           </p>
         </div>
       </div>

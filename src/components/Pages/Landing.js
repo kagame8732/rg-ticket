@@ -678,10 +678,18 @@ function Landing() {
       <div>
         <h2 className="rgticket">@rgticket | #rgticket</h2>
         <div className="rgticket-img">
-          <img src={img1} alt="" />
-          <img src={img2} alt="" />
-          <img src={img3} alt="" />
-          <img src={img4} alt="" />
+          <div>
+            <img src={img1} alt="" />
+          </div>
+          <div>
+            <img src={img2} alt="" />
+          </div>
+          <div>
+            <img src={img3} alt="" />
+          </div>
+          <div>
+            <img src={img4} alt="" />
+          </div>
         </div>
       </div>
       <div className="our-sponsor">

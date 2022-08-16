@@ -84,22 +84,28 @@ function Footer() {
             </div>
           </div>
           <div className="footer-right-connect">
-            <h2 className="connect-heading">Connect with US</h2>
+            <h2 className="connect-heading">Connect with Us</h2>
             <hr />
             <div className="footer-right-img">
-              <a href="#">
-                <img src={ig} alt="instagram-image" className="ig-img" />
-              </a>
-              <a href="#">
-                <img src={fb} alt="facebook-image" className="fb-img" />
-              </a>
-              <a href="#">
-                <img
-                  src={twitter}
-                  alt="twitter-image"
-                  className="twitter-img"
-                />
-              </a>
+              <div>
+                <a href="#">
+                  <img src={ig} alt="instagram-image" className="ig-img" />
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src={fb} alt="facebook-image" className="fb-img" />
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img
+                    src={twitter}
+                    alt="twitter-image"
+                    className="twitter-img"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
