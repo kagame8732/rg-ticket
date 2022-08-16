@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./../styles/Pages/login.css";
 import { Icon } from "react-icons-kit";
 import { eyeOff } from "react-icons-kit/feather/eyeOff";
@@ -97,7 +98,10 @@ function Signin() {
         </div>
         <div>
           <span className="">
-            No Account yet?<a href="">SIGN UP</a>
+            No Account yet?
+            <Link to={"/signup"} className="signup-login-menu">
+              Sign Up
+            </Link>
           </span>
         </div>
       </div>
