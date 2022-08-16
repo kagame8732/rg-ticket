@@ -153,7 +153,7 @@
   line-height: 21px;
 }
 .btn {
-  justify-content: end;
+  justify-content: flex-end;
   display: flex;
   margin-right: 35px;
 }
